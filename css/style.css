@@ -1,0 +1,83 @@
+header{
+	height: 97vh;
+	background: url(../images/bg.jpg);
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	font-family: 'Open Sans', sans-serif;
+}
+.box{
+	width: 420px;
+	height:420px;
+	background-color: #fff;
+	border-radius: 10px;
+	margin: auto;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+.btn_wrapper{
+	border-radius: 20px;
+	box-shadow: 4px 4px 8px #888888;
+	width: 220px;
+	margin:20px auto;
+	overflow: hidden;
+}
+.btn_wrapper button{
+	width: 50%;
+	border: none;
+	border-radius: 0;
+	font-weight: bold;
+}
+.btn_wrapper button:focus{
+	box-shadow: none;
+}
+.login{
+	float: left;
+	background:linear-gradient(to bottom right,red,yellow);
+	color: #fff;
+}
+.reg{
+	float: right;
+	background: transparent;
+}
+/*icon*/
+.icon{
+	width: 200px;
+	margin: 30px auto 0px;
+}
+.icon i{
+	font-size: 16px;
+	border-radius: 50%;
+	padding: 10px;
+	margin-left: 5px;
+	background: linear-gradient(to bottom right,red,yellow);
+	color: #fff;
+	cursor: pointer;
+}
+/*form*/
+.form_box input[type="text"],.form_box input[type="password"],.form_box input[type="email"]{
+	border: none;
+	border-bottom: 1px solid #ccc;
+	border-radius: 0px;
+	outline: none;
+}
+.form_box .form-control:focus{
+	box-shadow: none;
+	color: #000;
+}
+.form_box input[type="submit"]{
+	border-radius: 20px;
+	background: linear-gradient(to bottom right,red,yellow);
+	color: #000;
+	width: 80%;
+	margin: auto;
+	font-weight: bold;
+	color: #fff;
+}
+.form_box input[type="submit"]:hover{
+	cursor: pointer;
+	color: #fff;
+}
