@@ -1,6 +1,6 @@
 /*header start*/
 header{
-	height: 97vh;
+	min-height: 97vh;
 	background: url(../images/bg.jpg);
 	background-size: cover;
 	background-position: center;
